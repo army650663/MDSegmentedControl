@@ -55,6 +55,11 @@ public class MDSegmentedControl extends RadioGroup {
         mOnChoiceListener = onChoiceListener;
     }
 
+    public void setChoice(int pos) {
+        RadioButton radioButton = (RadioButton) getChildAt(pos);
+        radioButton.setChecked(true);
+    }
+
     private void initView() {
         setOrientation(HORIZONTAL);
         setOnCheckedChangeListener(mOnCheckedChangeListener);
