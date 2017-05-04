@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentedControl">
+        <attr name="defaultTextColor" format="color"/>
+        <attr name="selectTextColor" format="color"/>
+        <attr name="centerItemBackground" format="integer"/>
+        <attr name="firstItemBackground" format="integer"/>
+        <attr name="lastItemBackground" format="integer"/>
+    </declare-styleable>
+</resources>
