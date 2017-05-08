@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("pos", pos + "");
             }
         });
-
         sc.setChoice(2);
     }
 }

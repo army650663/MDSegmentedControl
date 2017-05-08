@@ -6,7 +6,6 @@ import android.graphics.Color;
 import android.support.annotation.IdRes;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
-import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -74,8 +73,6 @@ public class MDSegmentedControl extends RadioGroup {
             RadioButton child = (RadioButton) getChildAt(i);
             child.setLayoutParams(layoutParams);
             child.setLines(1);
-            child.setPadding(6, 6, 6, 6);
-            child.setGravity(Gravity.CENTER);
             child.setButtonDrawable(android.R.color.transparent);
             if (i == 0) {
                 child.setBackgroundResource(firstItemBgResId);
