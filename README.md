@@ -71,6 +71,7 @@ lastItemBackground
 ####變更背景顏色
 - 於 colors.xml 加入
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="segmentedControlBgColor">#a46228</color>
 </resources>
