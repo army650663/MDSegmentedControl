@@ -1,11 +1,11 @@
-#仿 iOS SegmentedControl
+# 仿 iOS SegmentedControl
 使用
 -----
 **1. Gradle dependency** (recommended)
 
   -  Add the following to your project level `build.gradle`:
  
-```gradle
+``` gradle
 allprojects {
 	repositories {
 		maven { url "https://jitpack.io" }
@@ -14,12 +14,12 @@ allprojects {
 ```
   -  Add this to your app `build.gradle`:
  
-```gradle
+``` gradle
 dependencies {
 	compile 'com.github.army650663:MDSegmentedControl:v1.0.2'
 }
 ```
-###範例
+### 範例
  - 可設定項目
 ```
 預設文字顏色
@@ -35,7 +35,7 @@ lastItemBackground
 ```
 
  - layout.xml
-```xml
+``` xml
 <tw.idv.madmanchen.mdsegmentedcontrollib.MDSegmentedControl
         android:id="@+id/sc"
         android:layout_width="match_parent"
@@ -68,9 +68,9 @@ lastItemBackground
  </tw.idv.madmanchen.mdsegmentedcontrollib.MDSegmentedControl>
 ```
 
-####變更背景顏色
+#### 變更背景顏色
 - colors.xml
-```xml
+``` xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="segmentedControlBgColor">#a46228</color>
