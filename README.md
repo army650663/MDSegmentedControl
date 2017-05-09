@@ -69,7 +69,7 @@ lastItemBackground
 ```
 
 ####變更背景顏色
-- 於 colors.xml 加入
+- colors.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
