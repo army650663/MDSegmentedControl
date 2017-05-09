@@ -65,7 +65,7 @@ lastItemBackground
             android:layout_height="wrap_content"
             android:text="Win"
             android:textSize="20sp"/>
- </tw.idv.madmanchen.mdsegmentedcontrollib.MDSegmentedControl>
+</tw.idv.madmanchen.mdsegmentedcontrollib.MDSegmentedControl>
 ```
 
 #### 變更背景顏色
